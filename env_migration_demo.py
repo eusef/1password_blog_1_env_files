@@ -30,7 +30,6 @@ async def main():
     # This is for demonstration purposes; in a real application, you would use these secrets securely
     print("Logging specific environment variables:")
     print(f"APP_NAME={app_name}")
-    print(f"APP_SECRET_TOKEN={app_secret_token}")
 
 # Entry point of the script
 # asyncio.run is used to execute the main asynchronous function
